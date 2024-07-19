@@ -2,6 +2,50 @@ const header = 'Famous People Throughout History';
 const footer = 'Timeline by Jonathan Heaney';
 const entries = [
   {
+    id: 'joanOfArc',
+    categories: ['Military Personnel', '1400s'],
+    color: 'navy-blue',
+    faicon: 'person-military-rifle',
+    date: '1412-01-01',
+    title: 'Joan of Arc',
+    image: {
+      link: 'https://commons.wikimedia.org/wiki/File:Cortes-Hernan-LOC.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/800px-Joan_of_Arc_miniature_graded.jpg',
+      alt: 'Joan of Arc',
+      caption: 'Joan of Arc',
+    },
+    body: "Joan of Arc (1412–1431) was a French peasant girl who became a national heroine and a saint of the Roman Catholic Church. Born in Domrémy, France, she claimed to have received visions from saints instructing her to support Charles VII and help drive the English from France during the Hundred Years' War. At age 17, she convinced Charles to allow her to lead a French army to the besieged city of Orléans, where she achieved a momentous victory in 1429. This and subsequent successes boosted French morale and led to Charles VII's coronation. Captured by the Burgundians in 1430, Joan was handed over to the English, tried for heresy, and burned at the stake in 1431. She was posthumously exonerated in 1456 and canonized in 1920. Joan of Arc remains a symbol of French unity and nationalism, and an enduring figure of faith and courage.",
+  },
+  {
+    id: 'raphael',
+    categories: ['Painter', '1400s'],
+    color: 'dark-turquoise',
+    faicon: 'paint-brush',
+    date: '1483-04-06',
+    title: 'Raphael',
+    image: {
+      link: 'https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Raffaello_Sanzio.jpg',
+      alt: 'Raphael',
+      caption: 'Raphael',
+    },
+    body: "Raphael (1483–1520), born Raffaello Sanzio, was an Italian painter and architect of the High Renaissance. Renowned for his masterful use of perspective and harmonious compositions, Raphael's works embody the ideals of the Renaissance. He was born in Urbino and trained under Pietro Perugino. In 1508, he was summoned to Rome by Pope Julius II, where he painted the famous 'School of Athens' fresco in the Vatican's Stanza della Segnatura. Raphael's work, characterized by clarity, ease of composition, and visual achievement of the Neoplatonic ideal of human grandeur, includes notable paintings like 'The Sistine Madonna' and numerous portraits. His architectural work includes the design of St. Peter's Basilica. Raphael's untimely death at 37 left a lasting legacy on Western art, influencing generations of artists with his perfection of form and graceful style.",
+    links: [
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg',
+        linkText: 'School of Athens',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_La_Fornarina_(ca._1519-1520).jpg',
+        linkText: 'La Fornarina',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Raphael_-_The_Sistine_Madonna_-_Google_Art_Project.jpg',
+        linkText: 'The Sistine Madonna',
+      },
+    ],
+  },
+  {
     id: 'martinLuther',
     categories: ['Religious Figure', '1400s'],
     color: 'green',
@@ -30,21 +74,6 @@ const entries = [
       caption: 'Hernán Cortés',
     },
     body: 'Hernán Cortés (1485–1547) was a Spanish conquistador known for his role in the conquest of the Aztec Empire. Born in Medellín, Spain, Cortés sailed to the New World in 1504, initially settling in Hispaniola and later participating in the conquest of Cuba. In 1519, he led an expedition to the mainland, landing on the Yucatán Peninsula and moving inland towards the Aztec capital of Tenochtitlán. Cortés formed alliances with indigenous groups who were enemies of the Aztecs, which proved crucial in his campaign. Upon reaching Tenochtitlán, he was initially welcomed by the Aztec emperor Montezuma II, but tensions soon erupted into violence. Cortés and his men were forced to flee the city during the Noche Triste in 1520 but returned with reinforcements and a devastating smallpox epidemic that weakened the Aztecs. In 1521, Tenochtitlán fell to Cortés, marking the end of the Aztec Empire. Cortés established Mexico City on the ruins of Tenochtitlán and became the first governor of New Spain. His actions had profound effects on the indigenous populations and laid the groundwork for Spanish colonization in the Americas.',
-  },
-  {
-    id: 'raphael',
-    categories: ['Painter', '1400s'],
-    color: 'dark-turquoise',
-    faicon: 'paint-brush',
-    date: '1483-04-06',
-    title: 'Raphael',
-    image: {
-      link: 'https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg',
-      src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Raffaello_Sanzio.jpg',
-      alt: 'Raphael',
-      caption: 'Raphael',
-    },
-    body: "Raphael (1483–1520), born Raffaello Sanzio, was an Italian painter and architect of the High Renaissance. Renowned for his masterful use of perspective and harmonious compositions, Raphael's works embody the ideals of the Renaissance. He was born in Urbino and trained under Pietro Perugino. In 1508, he was summoned to Rome by Pope Julius II, where he painted the famous 'School of Athens' fresco in the Vatican's Stanza della Segnatura. Raphael's work, characterized by clarity, ease of composition, and visual achievement of the Neoplatonic ideal of human grandeur, includes notable paintings like 'The Sistine Madonna' and numerous portraits. His architectural work includes the design of St. Peter's Basilica. Raphael's untimely death at 37 left a lasting legacy on Western art, influencing generations of artists with his perfection of form and graceful style.",
   },
 ];
 
