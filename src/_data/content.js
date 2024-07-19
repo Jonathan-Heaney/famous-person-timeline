@@ -9,12 +9,25 @@ const entries = [
     date: '1412-01-01',
     title: 'Joan of Arc',
     image: {
-      link: 'https://commons.wikimedia.org/wiki/File:Cortes-Hernan-LOC.jpg',
       src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/800px-Joan_of_Arc_miniature_graded.jpg',
       alt: 'Joan of Arc',
       caption: 'Joan of Arc',
     },
     body: "Joan of Arc (1412–1431) was a French peasant girl who became a national heroine and a saint of the Roman Catholic Church. Born in Domrémy, France, she claimed to have received visions from saints instructing her to support Charles VII and help drive the English from France during the Hundred Years' War. At age 17, she convinced Charles to allow her to lead a French army to the besieged city of Orléans, where she achieved a momentous victory in 1429. This and subsequent successes boosted French morale and led to Charles VII's coronation. Captured by the Burgundians in 1430, Joan was handed over to the English, tried for heresy, and burned at the stake in 1431. She was posthumously exonerated in 1456 and canonized in 1920. Joan of Arc remains a symbol of French unity and nationalism, and an enduring figure of faith and courage.",
+  },
+  {
+    id: 'vladImpaler',
+    categories: ['Politician', '1400s'],
+    color: 'blue',
+    faicon: 'landmark',
+    date: '1431-11-02',
+    title: 'Vlad the Impaler',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Vlad_Tepes_002.jpg',
+      alt: 'Vlad the Impaler',
+      caption: 'Vlad the Impaler',
+    },
+    body: "Vlad the Impaler (1431–1476), also known as Vlad III or Vlad Dracula, was a 15th-century ruler of Wallachia, a historical region in present-day Romania. Born in Sighișoara, Vlad was a member of the House of Drăculești and son of Vlad II Dracul. His moniker 'the Impaler' comes from his notorious method of punishing his enemies by impalement. Vlad ruled Wallachia with a fierce hand, seeking to consolidate power and resist Ottoman expansion into Europe. His brutal tactics and strict rule aimed at stabilizing and defending his territory earned him a reputation for cruelty, but also for effectiveness. Vlad's legacy is complex; while he is considered a national hero in Romania for his defense against the Ottomans, he is also the inspiration for the fictional character Count Dracula, popularized by Bram Stoker's 1897 novel. His life and actions continue to fascinate and horrify people worldwide.",
   },
   {
     id: 'raphael',
