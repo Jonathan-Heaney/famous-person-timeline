@@ -2,8 +2,50 @@ const header = 'Famous People Throughout History';
 const footer = 'Timeline by Jonathan Heaney';
 const entries = [
   {
+    id: 'ibnKhaldun',
+    categories: ['Historian'],
+    color: 'brick-red',
+    faicon: 'book',
+    date: '1332-05-27',
+    title: 'Ibn Khaldun',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg',
+      alt: 'Ibn Khaldun',
+      caption: 'Ibn Khaldun',
+    },
+    body: "Ibn Khaldun (1332–1406) was a prominent Arab scholar, historian, and philosopher, often considered one of the fathers of modern sociology and historiography. Born in Tunis, in present-day Tunisia, he lived during a period of political turmoil and intellectual flourishing in the Islamic world. Ibn Khaldun is best known for his work 'Muqaddimah' (Introduction), written in 1377, which presents a groundbreaking analysis of historical processes and the rise and fall of civilizations. He introduced concepts such as 'asabiyyah' (social cohesion), which he argued was a fundamental force behind the development and decline of societies. His cyclical theory of history and emphasis on empirical evidence and critical thinking were revolutionary for his time. Ibn Khaldun's work covered a wide range of subjects, including economics, education, and political theory, and his insights continue to be influential in various fields of study. His life as a statesman, judge, and scholar reflects the rich intellectual tradition of the Islamic Golden Age.",
+  },
+  {
+    id: 'timur',
+    categories: ['Military Personnel'],
+    color: 'navy-blue',
+    faicon: 'person-military-rifle',
+    date: '1336-04-08',
+    title: 'Timur',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Timur_reconstruction03.jpg/220px-Timur_reconstruction03.jpg',
+      alt: 'Timur',
+      caption: 'Timur',
+    },
+    body: 'Timur (1336–1405), also known as Tamerlane, was a Turco-Mongol conqueror who founded the Timurid Empire in and around modern-day Iran and Central Asia. Born in Kesh, near Samarkand in present-day Uzbekistan, Timur claimed descent from Genghis Khan through his marriage into the Borjigin family. He was a formidable military strategist and tactician, known for his use of mobility and surprise in warfare. Timur sought to restore the Mongol Empire, and his campaigns extended from India to the Mediterranean, including the sack of Delhi, the defeat of the Ottoman Sultan Bayezid I, and the invasion of the Golden Horde. His conquests were marked by widespread destruction and brutality, with millions of deaths attributed to his campaigns. Despite his ruthlessness, Timur was also a patron of the arts and architecture, contributing to the cultural and artistic revival of Samarkand. His legacy is complex, as he is remembered both as a brutal conqueror and a significant cultural patron.',
+  },
+  {
+    id: 'janHus',
+    categories: ['Religious Figure'],
+    color: 'orange',
+    faicon: 'church',
+    date: '1372',
+    title: 'Jan Hus',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Jan_Hus%2C_portrait.jpg',
+      alt: 'Jan Hus',
+      caption: 'Jan Hus',
+    },
+    body: "Jan Hus (c. 1372–1415) was a Czech theologian and reformer whose teachings influenced the Protestant Reformation. Born in Husinec, Bohemia, he became a professor and rector at Charles University in Prague. Hus was a strong advocate for church reform, criticizing the moral failings of clergy, the sale of indulgences, and the Church's wealth and power. Influenced by the writings of John Wycliffe, Hus emphasized the authority of the Bible over the Church and called for a return to a more pious and simple Christian life. His sermons and writings gained a significant following but also drew the ire of Church authorities. In 1415, Hus was summoned to the Council of Constance to defend his views. Despite being promised safe conduct, he was arrested, tried for heresy, and burned at the stake. Hus's martyrdom sparked the Hussite Wars and left a lasting legacy, paving the way for future reformers like Martin Luther.",
+  },
+  {
     id: 'joanOfArc',
-    categories: ['Military Personnel', '1400s'],
+    categories: ['Military Personnel'],
     color: 'navy-blue',
     faicon: 'person-military-rifle',
     date: '1412-01-01',
@@ -17,7 +59,7 @@ const entries = [
   },
   {
     id: 'vladImpaler',
-    categories: ['Politician', '1400s'],
+    categories: ['Politician'],
     color: 'blue',
     faicon: 'landmark',
     date: '1431-11-02',
@@ -31,7 +73,7 @@ const entries = [
   },
   {
     id: 'raphael',
-    categories: ['Painter', '1400s'],
+    categories: ['Painter'],
     color: 'dark-turquoise',
     faicon: 'paint-brush',
     date: '1483-04-06',
@@ -60,8 +102,8 @@ const entries = [
   },
   {
     id: 'martinLuther',
-    categories: ['Religious Figure', '1400s'],
-    color: 'green',
+    categories: ['Religious Figure'],
+    color: 'orange',
     faicon: 'church',
     date: '1483-11-10',
     title: 'Martin Luther',
@@ -75,7 +117,7 @@ const entries = [
   },
   {
     id: 'hernanCortes',
-    categories: ['Explorer', '1400s'],
+    categories: ['Explorer'],
     color: 'dark-slate-gray',
     faicon: 'ship',
     date: '1485-12-01',
