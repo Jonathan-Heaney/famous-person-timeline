@@ -44,6 +44,20 @@ const entries = [
     body: "Jan Hus (c. 1372–1415) was a Czech theologian and reformer whose teachings influenced the Protestant Reformation. Born in Husinec, Bohemia, he became a professor and rector at Charles University in Prague. Hus was a strong advocate for church reform, criticizing the moral failings of clergy, the sale of indulgences, and the Church's wealth and power. Influenced by the writings of John Wycliffe, Hus emphasized the authority of the Bible over the Church and called for a return to a more pious and simple Christian life. His sermons and writings gained a significant following but also drew the ire of Church authorities. In 1415, Hus was summoned to the Council of Constance to defend his views. Despite being promised safe conduct, he was arrested, tried for heresy, and burned at the stake. Hus's martyrdom sparked the Hussite Wars and left a lasting legacy, paving the way for future reformers like Martin Luther.",
   },
   {
+    id: 'zhengHe',
+    categories: ['Explorer'],
+    color: 'dark-slate-gray',
+    faicon: 'ship',
+    date: '1371-01-01',
+    title: 'Zheng He',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2016_Malakka%2C_Stadhuys_%2809%29.jpg/220px-2016_Malakka%2C_Stadhuys_%2809%29.jpg',
+      alt: 'Zheng He',
+      caption: 'Zheng He',
+    },
+    body: "Zheng He (1371–1433), born Ma He, was a Chinese mariner, explorer, and diplomat during the early Ming Dynasty. Born in Yunnan Province, he was captured by Ming forces as a child and castrated, later serving as a trusted eunuch in the court of the Yongle Emperor. Zheng He is best known for leading seven grand maritime expeditions between 1405 and 1433, commanding a vast fleet of ships that sailed across the Indian Ocean, reaching as far as the east coast of Africa, the Arabian Peninsula, and Southeast Asia. These voyages aimed to establish Chinese presence, exert imperial control, and expand tributary trade networks. Zheng He's fleet was renowned for its size, advanced navigation, and impressive treasure ships, which were some of the largest wooden ships ever built. His voyages helped to spread Chinese culture and influence, establish diplomatic relations, and enhance trade. Despite their historical significance, the expeditions were later halted, and China turned inward, ending its era of maritime exploration.",
+  },
+  {
     id: 'joanOfArc',
     categories: ['Military Personnel'],
     color: 'navy-blue',
