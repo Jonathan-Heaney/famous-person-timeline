@@ -58,6 +58,34 @@ const entries = [
     body: "Zheng He (1371–1433), born Ma He, was a Chinese mariner, explorer, and diplomat during the early Ming Dynasty. Born in Yunnan Province, he was captured by Ming forces as a child and castrated, later serving as a trusted eunuch in the court of the Yongle Emperor. Zheng He is best known for leading seven grand maritime expeditions between 1405 and 1433, commanding a vast fleet of ships that sailed across the Indian Ocean, reaching as far as the east coast of Africa, the Arabian Peninsula, and Southeast Asia. These voyages aimed to establish Chinese presence, exert imperial control, and expand tributary trade networks. Zheng He's fleet was renowned for its size, advanced navigation, and impressive treasure ships, which were some of the largest wooden ships ever built. His voyages helped to spread Chinese culture and influence, establish diplomatic relations, and enhance trade. Despite their historical significance, the expeditions were later halted, and China turned inward, ending its era of maritime exploration.",
   },
   {
+    id: 'janVanEyck',
+    categories: ['Painter'],
+    color: 'dark-turquoise',
+    faicon: 'paint-brush',
+    date: '1390-01-01',
+    title: 'Jan van Eyck',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Portrait_of_a_Man_by_Jan_van_Eyck-small.jpg/640px-Portrait_of_a_Man_by_Jan_van_Eyck-small.jpg',
+      alt: 'Jan van Eyck',
+      caption: 'Jan van Eyck',
+    },
+    body: "Jan van Eyck (c. 1390–1441) was a Flemish painter and one of the most significant artists of the Northern Renaissance. Born in Maaseik, near Maastricht, Van Eyck was a master of oil painting, pioneering techniques that allowed for unprecedented detail, realism, and use of light. His most famous works include the 'Ghent Altarpiece' (1432), created with his brother Hubert van Eyck, and 'The Arnolfini Portrait' (1434). Van Eyck's meticulous attention to detail and innovative use of oil paints set new standards in art, influencing generations of painters. His portraits and religious scenes are celebrated for their complex iconography, rich textures, and lifelike representations. Serving as court painter to Philip the Good, Duke of Burgundy, Van Eyck's work also had a significant impact on the court's cultural life. His legacy endures as a foundational figure in the development of Western art, bridging medieval traditions and the burgeoning Renaissance style.",
+    links: [
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Ghent_Altarpiece_by_Jan_van_Eyck_ALL.jpg',
+        linkText: 'Ghent Altarpiece (1432)',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_PortraitFXD.jpg',
+        linkText: 'The Arnolfini Portrait (1434)',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Jan_van_Eyck_The_Annunciation_1434-1436.jpg',
+        linkText: 'The Annunciation (1434/36)',
+      },
+    ],
+  },
+  {
     id: 'joanOfArc',
     categories: ['Military Personnel'],
     color: 'navy-blue',
