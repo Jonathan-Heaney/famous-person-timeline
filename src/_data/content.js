@@ -58,6 +58,34 @@ const entries = [
     body: "Zheng He (1371–1433), born Ma He, was a Chinese mariner, explorer, and diplomat during the early Ming Dynasty. Born in Yunnan Province, he was captured by Ming forces as a child and castrated, later serving as a trusted eunuch in the court of the Yongle Emperor. Zheng He is best known for leading seven grand maritime expeditions between 1405 and 1433, commanding a vast fleet of ships that sailed across the Indian Ocean, reaching as far as the east coast of Africa, the Arabian Peninsula, and Southeast Asia. These voyages aimed to establish Chinese presence, exert imperial control, and expand tributary trade networks. Zheng He's fleet was renowned for its size, advanced navigation, and impressive treasure ships, which were some of the largest wooden ships ever built. His voyages helped to spread Chinese culture and influence, establish diplomatic relations, and enhance trade. Despite their historical significance, the expeditions were later halted, and China turned inward, ending its era of maritime exploration.",
   },
   {
+    id: 'donatello',
+    categories: ['Sculptor'],
+    color: 'pale-turquoise',
+    faicon: 'person',
+    date: '1386-01-01',
+    title: 'Donatello',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cinq_ma%C3%AEtres_de_la_Renaissance_florentine_Mus%C3%A9e_du_Louvre_Peintures_INV_267_-_Donatello.jpg/640px-Cinq_ma%C3%AEtres_de_la_Renaissance_florentine_Mus%C3%A9e_du_Louvre_Peintures_INV_267_-_Donatello.jpg',
+      alt: 'Donatello',
+      caption: 'Donatello',
+    },
+    body: "Donatello (c. 1386–1466) was an Italian sculptor and a key figure of the early Renaissance. Born in Florence, Donatello revolutionized sculpture by reintroducing classical techniques and naturalism. He is renowned for his mastery of perspective, anatomy, and expressive detail. His early work, the marble statue 'David,' demonstrates his skill in creating realistic human forms. Donatello's later bronze 'David' is particularly famous as the first freestanding nude statue since antiquity, highlighting his innovative approach and humanist influences. His other notable works include 'Saint George,' the 'Equestrian Statue of Gattamelata,' and the 'Magdalene Penitent.' Donatello's contributions significantly advanced the art of sculpture, emphasizing the beauty and complexity of the human figure, and his influence is seen in the works of later Renaissance artists like Michelangelo. His ability to convey emotion and movement set a new standard for artistic expression in his time.",
+    links: [
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Donatello_-_David_-_Floren%C3%A7a.jpg',
+        linkText: 'David (1440-43)',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Donatello,_Mary_Magdalene,_c1440-42,_Museo_dell%27Opera_del_Duomo.jpg',
+        linkText: 'Magdalene Penitent (1455)',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Saint_George_by_Donatello-Bargello.jpg',
+        linkText: 'Saint George (1415-1417)',
+      },
+    ],
+  },
+  {
     id: 'janVanEyck',
     categories: ['Painter'],
     color: 'dark-turquoise',
@@ -84,6 +112,20 @@ const entries = [
         linkText: 'The Annunciation (1434/36)',
       },
     ],
+  },
+  {
+    id: 'johannesGutenberg',
+    categories: ['Inventor'],
+    color: 'dark-blue',
+    faicon: 'print',
+    date: '1400-01-01',
+    title: 'Johannes Gutenberg',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg.jpg/640px-Gutenberg.jpg',
+      alt: 'Johannes Gutenberg',
+      caption: 'Johannes Gutenberg',
+    },
+    body: "Johannes Gutenberg (c. 1400–1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. Born in Mainz, Germany, Gutenberg is best known for inventing the movable-type printing press around 1440. This innovation revolutionized the production of books, making them more accessible and affordable, and greatly accelerated the spread of knowledge. Gutenberg's most famous printed work, the Gutenberg Bible (also known as the 42-line Bible), was completed around 1455 and is admired for its high quality and craftsmanship. The printing press facilitated the spread of the Renaissance, Reformation, and Scientific Revolution by enabling the mass production of books, pamphlets, and other printed materials. Gutenberg's invention is often considered one of the most important developments in human history, as it laid the foundation for the modern knowledge-based economy and culture. His legacy endures as a pivotal figure in the democratization of knowledge and the advancement of literacy.",
   },
   {
     id: 'joanOfArc',
