@@ -156,6 +156,20 @@ const entries = [
     body: "Vlad the Impaler (1431–1476), also known as Vlad III or Vlad Dracula, was a 15th-century ruler of Wallachia, a historical region in present-day Romania. Born in Sighișoara, Vlad was a member of the House of Drăculești and son of Vlad II Dracul. His moniker 'the Impaler' comes from his notorious method of punishing his enemies by impalement. Vlad ruled Wallachia with a fierce hand, seeking to consolidate power and resist Ottoman expansion into Europe. His brutal tactics and strict rule aimed at stabilizing and defending his territory earned him a reputation for cruelty, but also for effectiveness. Vlad's legacy is complex; while he is considered a national hero in Romania for his defense against the Ottomans, he is also the inspiration for the fictional character Count Dracula, popularized by Bram Stoker's 1897 novel. His life and actions continue to fascinate and horrify people worldwide.",
   },
   {
+    id: 'mehmedConqueror',
+    categories: ['Politician'],
+    color: 'blue',
+    faicon: 'landmark',
+    date: '1432-03-30',
+    title: 'Mehmed the Conqueror',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg',
+      alt: 'Mehmed the Conqueror',
+      caption: 'Mehmed the Conqueror',
+    },
+    body: "Mehmed the Conqueror (1432–1481), also known as Mehmed II, was an Ottoman Sultan renowned for his military conquests and significant contributions to the expansion of the Ottoman Empire. Born in Edirne, he ascended to the throne in 1444 and again in 1451. His most famous achievement was the conquest of Constantinople in 1453, marking the end of the Byzantine Empire and establishing Istanbul as the new capital of the Ottoman Empire. This victory earned him the title 'The Conqueror.' Mehmed II's reign was characterized by extensive military campaigns that expanded Ottoman territories in the Balkans and Anatolia. He also focused on administrative and cultural reforms, transforming Istanbul into a vibrant, multicultural center of trade, culture, and learning. Mehmed was a patron of the arts and education, promoting architectural projects and scholarly works. His legacy as a formidable military leader and visionary ruler significantly shaped the history of the Ottoman Empire and the broader region.",
+  },
+  {
     id: 'raphael',
     categories: ['Painter'],
     color: 'dark-turquoise',
