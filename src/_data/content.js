@@ -198,6 +198,20 @@ const entries = [
     ],
   },
   {
+    id: 'lorenzoMedici',
+    categories: ['Politician'],
+    color: 'blue',
+    faicon: 'landmark',
+    date: '1449-01-01',
+    title: "Lorenzo de' Medici",
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lorenzo_de_Medici.jpg/640px-Lorenzo_de_Medici.jpg',
+      alt: "Lorenzo de' Medici",
+      caption: "Lorenzo de' Medici",
+    },
+    body: "Lorenzo de' Medici (1449–1492), also known as Lorenzo the Magnificent, was a prominent Italian statesman, banker, and patron of the arts during the Renaissance. Born in Florence, he was a member of the powerful Medici family, which dominated Florentine politics and culture. Lorenzo's leadership and diplomatic skills helped maintain peace among the various Italian states, fostering a period of stability and prosperity known as the 'Pax Medicea.' As a patron, he supported numerous artists, writers, and scholars, including Michelangelo, Leonardo da Vinci, Botticelli, and Poliziano, contributing significantly to the flourishing of Renaissance culture. Lorenzo's court became a vibrant center of humanist thought and artistic innovation. Despite his political acumen, his lavish spending and banking ventures eventually strained the family's finances. Lorenzo's death marked the beginning of political instability in Florence, but his legacy as a cultural patron and influential leader endures, symbolizing the heights of Renaissance achievement.",
+  },
+  {
     id: 'raphael',
     categories: ['Painter'],
     color: 'dark-turquoise',
