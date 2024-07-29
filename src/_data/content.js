@@ -170,6 +170,34 @@ const entries = [
     body: "Mehmed the Conqueror (1432–1481), also known as Mehmed II, was an Ottoman Sultan renowned for his military conquests and significant contributions to the expansion of the Ottoman Empire. Born in Edirne, he ascended to the throne in 1444 and again in 1451. His most famous achievement was the conquest of Constantinople in 1453, marking the end of the Byzantine Empire and establishing Istanbul as the new capital of the Ottoman Empire. This victory earned him the title 'The Conqueror.' Mehmed II's reign was characterized by extensive military campaigns that expanded Ottoman territories in the Balkans and Anatolia. He also focused on administrative and cultural reforms, transforming Istanbul into a vibrant, multicultural center of trade, culture, and learning. Mehmed was a patron of the arts and education, promoting architectural projects and scholarly works. His legacy as a formidable military leader and visionary ruler significantly shaped the history of the Ottoman Empire and the broader region.",
   },
   {
+    id: 'sandroBotticelli',
+    categories: ['Painter'],
+    color: 'dark-turquoise',
+    faicon: 'paint-brush',
+    date: '1445-01-01',
+    title: 'Sandro Botticelli',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sandro_Botticelli_083.jpg/220px-Sandro_Botticelli_083.jpg',
+      alt: 'Sandro Botticelli',
+      caption: 'Sandro Botticelli',
+    },
+    body: "Sandro Botticelli (1445–1510) was an Italian painter of the Early Renaissance, renowned for his distinctive style and contribution to the Florentine art scene. Born Alessandro di Mariano di Vanni Filipepi in Florence, Botticelli was a student of Fra Filippo Lippi and later associated with the Medici family. His works are characterized by their graceful lines, delicate details, and use of mythological themes. Botticelli's most famous paintings include 'The Birth of Venus' and 'Primavera,' both of which depict classical mythology with a blend of idealized beauty and intricate symbolism. These works reflect the humanist interests of the time, merging classical themes with contemporary Florentine culture. Despite a period of decline in his reputation after his death, Botticelli's work was rediscovered in the 19th century and has since been celebrated for its artistic innovation and profound influence on the Renaissance art movement.",
+    links: [
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg',
+        linkText: 'The Birth of Venus',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Botticelli-primavera.jpg',
+        linkText: 'Primavera',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_Adoration_of_the_Magi_2.jpg',
+        linkText: 'Adoration of the Magi',
+      },
+    ],
+  },
+  {
     id: 'raphael',
     categories: ['Painter'],
     color: 'dark-turquoise',
