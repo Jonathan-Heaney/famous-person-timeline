@@ -212,6 +212,20 @@ const entries = [
     body: "Lorenzo de' Medici (1449–1492), also known as Lorenzo the Magnificent, was a prominent Italian statesman, banker, and patron of the arts during the Renaissance. Born in Florence, he was a member of the powerful Medici family, which dominated Florentine politics and culture. Lorenzo's leadership and diplomatic skills helped maintain peace among the various Italian states, fostering a period of stability and prosperity known as the 'Pax Medicea.' As a patron, he supported numerous artists, writers, and scholars, including Michelangelo, Leonardo da Vinci, Botticelli, and Poliziano, contributing significantly to the flourishing of Renaissance culture. Lorenzo's court became a vibrant center of humanist thought and artistic innovation. Despite his political acumen, his lavish spending and banking ventures eventually strained the family's finances. Lorenzo's death marked the beginning of political instability in Florence, but his legacy as a cultural patron and influential leader endures, symbolizing the heights of Renaissance achievement.",
   },
   {
+    id: 'bartolomeuDias',
+    categories: ['Explorer'],
+    color: 'dark-slate-gray',
+    faicon: 'ship',
+    date: '1450-01-01',
+    title: 'Bartolomeu Dias',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Bartolomeu_Dias%2C_South_Africa_House_%28cut%29.JPG',
+      alt: 'Bartolomeu Dias',
+      caption: 'Bartolomeu Dias',
+    },
+    body: "Bartolomeu Dias (c. 1450–1500) was a Portuguese explorer who played a key role in the Age of Discovery by becoming the first European to sail around the southern tip of Africa. Born in Portugal, Dias embarked on his historic voyage in 1487 under the commission of King John II. In 1488, he successfully navigated the Cape of Good Hope, proving that a sea route to the Indian Ocean from Europe was possible. This discovery opened up the potential for direct maritime trade with Asia, which was pivotal for Portuguese exploration and expansion. Dias's journey demonstrated the feasibility of accessing the wealth of the East, which eventually led to Vasco da Gama's successful voyage to India in 1498. Although Dias did not reach India himself, his pioneering expedition laid the groundwork for the subsequent Portuguese dominance in the Indian Ocean trade. Dias's contributions significantly advanced European navigation and global exploration.",
+  },
+  {
     id: 'raphael',
     categories: ['Painter'],
     color: 'dark-turquoise',
