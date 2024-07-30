@@ -226,6 +226,20 @@ const entries = [
     body: "Bartolomeu Dias (c. 1450–1500) was a Portuguese explorer who played a key role in the Age of Discovery by becoming the first European to sail around the southern tip of Africa. Born in Portugal, Dias embarked on his historic voyage in 1487 under the commission of King John II. In 1488, he successfully navigated the Cape of Good Hope, proving that a sea route to the Indian Ocean from Europe was possible. This discovery opened up the potential for direct maritime trade with Asia, which was pivotal for Portuguese exploration and expansion. Dias's journey demonstrated the feasibility of accessing the wealth of the East, which eventually led to Vasco da Gama's successful voyage to India in 1498. Although Dias did not reach India himself, his pioneering expedition laid the groundwork for the subsequent Portuguese dominance in the Indian Ocean trade. Dias's contributions significantly advanced European navigation and global exploration.",
   },
   {
+    id: 'christopherColumbus',
+    categories: ['Explorer'],
+    color: 'dark-slate-gray',
+    faicon: 'ship',
+    date: '1451-08-25',
+    title: 'Christopher Columbus',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg',
+      alt: 'Christopher Columbus',
+      caption: 'Christopher Columbus',
+    },
+    body: "Christopher Columbus (1451–1506) was an Italian explorer whose voyages across the Atlantic Ocean led to the European discovery of the Americas. Born in Genoa, Columbus sought a westward route to Asia, believing it to be shorter than the overland routes. With support from Spanish monarchs Ferdinand and Isabella, he embarked on his first voyage in 1492, commanding three ships: the Niña, the Pinta, and the Santa María. On October 12, 1492, he landed in the Bahamas, mistakenly believing he had reached the East Indies. Columbus made a total of four voyages to the New World, exploring parts of the Caribbean, Central America, and South America. While he never found the direct route to Asia, his expeditions opened up the Americas for European exploration and colonization. Columbus's voyages had profound and lasting impacts, leading to widespread exchange between the Old and New Worlds. However, his expeditions also initiated the era of European colonization that brought significant suffering to indigenous populations. Columbus remains a controversial figure, celebrated for his role in history but criticized for the consequences of his journeys.",
+  },
+  {
     id: 'raphael',
     categories: ['Painter'],
     color: 'dark-turquoise',
