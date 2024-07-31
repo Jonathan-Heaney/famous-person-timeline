@@ -2,6 +2,20 @@ const header = 'Famous People Throughout History';
 const footer = 'Timeline by Jonathan Heaney';
 const entries = [
   {
+    id: 'ibnBattuta',
+    categories: ['Explorer'],
+    color: 'dark-slate-gray',
+    faicon: 'ship',
+    date: '1371-01-01',
+    title: 'Ibn Battuta',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2016_Malakka%2C_Stadhuys_%2809%29.jpg/220px-2016_Malakka%2C_Stadhuys_%2809%29.jpg',
+      alt: 'Ibn Battuta',
+      caption: 'Ibn Battuta',
+    },
+    body: "Ibn Battuta (1304–1369) was a Moroccan explorer and scholar who is renowned for his extensive travels across the Islamic world and beyond. Born in Tangier, Morocco, Ibn Battuta set out on his first journey in 1325 to perform the Hajj, the pilgrimage to Mecca. This pilgrimage marked the beginning of a 29-year odyssey during which he traveled over 75,000 miles, visiting much of the known Islamic world and parts of Africa, Europe, and Asia. His travels took him to North Africa, the Middle East, Central Asia, India, Southeast Asia, and China, among other regions. He served as a judge in the Delhi Sultanate and even ventured as far as the Maldives and Timbuktu. Throughout his journeys, Ibn Battuta recorded his observations on the diverse cultures, people, and places he encountered, providing valuable insights into the medieval world. Upon returning to Morocco, he documented his experiences in the Rihla (The Journey), which remains a crucial historical source. Ibn Battuta's travels and writings offer a unique perspective on the interconnectedness of the 14th-century world and the spread of Islam. His legacy endures as one of history's greatest travelers and chroniclers.",
+  },
+  {
     id: 'ibnKhaldun',
     categories: ['Historian'],
     color: 'brick-red',
@@ -266,6 +280,34 @@ const entries = [
       caption: 'Christopher Columbus',
     },
     body: "Christopher Columbus (1451–1506) was an Italian explorer whose voyages across the Atlantic Ocean led to the European discovery of the Americas. Born in Genoa, Columbus sought a westward route to Asia, believing it to be shorter than the overland routes. With support from Spanish monarchs Ferdinand and Isabella, he embarked on his first voyage in 1492, commanding three ships: the Niña, the Pinta, and the Santa María. On October 12, 1492, he landed in the Bahamas, mistakenly believing he had reached the East Indies. Columbus made a total of four voyages to the New World, exploring parts of the Caribbean, Central America, and South America. While he never found the direct route to Asia, his expeditions opened up the Americas for European exploration and colonization. Columbus's voyages had profound and lasting impacts, leading to widespread exchange between the Old and New Worlds. However, his expeditions also initiated the era of European colonization that brought significant suffering to indigenous populations. Columbus remains a controversial figure, celebrated for his role in history but criticized for the consequences of his journeys.",
+  },
+  {
+    id: 'vascoDaGama',
+    categories: ['Explorer'],
+    color: 'dark-slate-gray',
+    faicon: 'ship',
+    date: '1460-01-01',
+    title: 'Vasco da Gama',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg/220px-Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg',
+      alt: 'Vasco da Gama',
+      caption: 'Vasco da Gama',
+    },
+    body: "Vasco da Gama (c. 1460–1524) was a Portuguese explorer whose voyages established a direct sea route from Europe to India, marking a significant milestone in the Age of Discovery. Born in Sines, Portugal, da Gama was appointed by King Manuel I to lead an expedition to India. In 1497, he set sail from Lisbon with four ships, rounding the Cape of Good Hope and reaching the Indian port of Calicut (modern-day Kozhikode) in 1498. This historic voyage opened up the first all-water trade route between Europe and Asia, allowing Portugal to establish a powerful and lucrative spice trade. Da Gama's successful navigation of the Indian Ocean and his dealings with local rulers established Portugal as a dominant trading power in the region. He made two more voyages to India, securing Portuguese interests and expanding their colonial and commercial influence. His achievements had a profound impact on global trade and ushered in an era of European colonialism in Asia. Vasco da Gama is celebrated for his navigational prowess and his pivotal role in connecting the East and West by sea.",
+  },
+  {
+    id: 'ferdinandMagellan',
+    categories: ['Explorer'],
+    color: 'dark-slate-gray',
+    faicon: 'ship',
+    date: '1480-01-01',
+    title: 'Ferdinand Magellan',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ferdinand_Magellan.jpg/220px-Ferdinand_Magellan.jpg',
+      alt: 'Ferdinand Magellan',
+      caption: 'Ferdinand Magellan',
+    },
+    body: "Ferdinand Magellan (c. 1480–1521) was a Portuguese explorer known for leading the first expedition to circumnavigate the globe. Born in Sabrosa, Portugal, Magellan initially served under King Manuel I but later sailed for Spain under King Charles I. In 1519, he set out with a fleet of five ships to find a westward route to the Spice Islands (the Moluccas). Magellan's expedition traversed the Atlantic Ocean and discovered the strait at the southern tip of South America, now named the Strait of Magellan. In 1521, he reached the Philippines, where he was killed in a conflict on the island of Mactan. Despite his death, the expedition continued under the command of Juan Sebastián Elcano. In 1522, the sole remaining ship, the Victoria, returned to Spain, completing the first known circumnavigation of the Earth. Magellan's journey proved the vastness of the Pacific Ocean and provided crucial information about global geography. His voyage significantly contributed to European knowledge of the world and established the importance of westward maritime exploration. Magellan's legacy is remembered as one of the greatest achievements in the history of exploration.",
   },
   {
     id: 'raphael',
