@@ -6,7 +6,7 @@ const entries = [
     categories: ['Explorer'],
     color: 'dark-slate-gray',
     faicon: 'ship',
-    date: '1371-01-01',
+    date: '1304-02-24',
     title: 'Ibn Battuta',
     image: {
       src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2016_Malakka%2C_Stadhuys_%2809%29.jpg/220px-2016_Malakka%2C_Stadhuys_%2809%29.jpg',
@@ -14,6 +14,30 @@ const entries = [
       caption: 'Ibn Battuta',
     },
     body: "Ibn Battuta (1304–1369) was a Moroccan explorer and scholar who is renowned for his extensive travels across the Islamic world and beyond. Born in Tangier, Morocco, Ibn Battuta set out on his first journey in 1325 to perform the Hajj, the pilgrimage to Mecca. This pilgrimage marked the beginning of a 29-year odyssey during which he traveled over 75,000 miles, visiting much of the known Islamic world and parts of Africa, Europe, and Asia. His travels took him to North Africa, the Middle East, Central Asia, India, Southeast Asia, and China, among other regions. He served as a judge in the Delhi Sultanate and even ventured as far as the Maldives and Timbuktu. Throughout his journeys, Ibn Battuta recorded his observations on the diverse cultures, people, and places he encountered, providing valuable insights into the medieval world. Upon returning to Morocco, he documented his experiences in the Rihla (The Journey), which remains a crucial historical source. Ibn Battuta's travels and writings offer a unique perspective on the interconnectedness of the 14th-century world and the spread of Islam. His legacy endures as one of history's greatest travelers and chroniclers.",
+  },
+  {
+    id: 'giovanniBoccaccio',
+    categories: ['Writer'],
+    color: 'pale-turquoise',
+    faicon: 'person',
+    date: '1313-06-16',
+    title: 'Giovanni Boccaccio',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Boccaccio_by_Morghen.jpg/220px-Boccaccio_by_Morghen.jpg',
+      alt: 'Giovanni Boccaccio',
+      caption: 'Giovanni Boccaccio',
+    },
+    body: "Giovanni Boccaccio (1313–1375) was an Italian writer, poet, and humanist, best known for his masterpiece, 'The Decameron.' Born in Certaldo or Florence, Boccaccio was a contemporary and friend of Petrarch and is considered one of the founders of Renaissance humanism. 'The Decameron,' written between 1348 and 1353, is a collection of 100 tales told by a group of young people seeking refuge from the Black Death in a villa outside Florence. The stories, ranging from the humorous to the tragic, explore themes of love, intelligence, and fortune, reflecting the complexities of human nature. Boccaccio's work had a significant influence on later writers, including Geoffrey Chaucer, and contributed to the development of the Italian literary tradition. In addition to 'The Decameron,' Boccaccio wrote poetry, biographies, and works of classical scholarship. His efforts to revive and study ancient texts helped lay the groundwork for the humanist movement. Boccaccio's contributions to literature and humanism mark him as a key figure in the transition from the medieval to the Renaissance world.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/The_Decameron',
+        linkText: 'The Decameron (1348-1353)',
+      },
+      {
+        href: 'https://en.wikipedia.org/wiki/De_Mulieribus_Claris',
+        linkText: 'On Famous Women (1361-1362)',
+      },
+    ],
   },
   {
     id: 'ibnKhaldun',
