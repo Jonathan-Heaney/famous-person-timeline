@@ -264,6 +264,34 @@ const entries = [
     body: "Bartolomeu Dias (c. 1450–1500) was a Portuguese explorer who played a key role in the Age of Discovery by becoming the first European to sail around the southern tip of Africa. Born in Portugal, Dias embarked on his historic voyage in 1487 under the commission of King John II. In 1488, he successfully navigated the Cape of Good Hope, proving that a sea route to the Indian Ocean from Europe was possible. This discovery opened up the potential for direct maritime trade with Asia, which was pivotal for Portuguese exploration and expansion. Dias's journey demonstrated the feasibility of accessing the wealth of the East, which eventually led to Vasco da Gama's successful voyage to India in 1498. Although Dias did not reach India himself, his pioneering expedition laid the groundwork for the subsequent Portuguese dominance in the Indian Ocean trade. Dias's contributions significantly advanced European navigation and global exploration.",
   },
   {
+    id: 'hieronymusBosch',
+    categories: ['Painter'],
+    color: 'dark-turquoise',
+    faicon: 'paint-brush',
+    date: '1450-01-01',
+    title: 'Hieronymus Bosch',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jheronimus_Bosch_%28cropped%29.jpg/220px-Jheronimus_Bosch_%28cropped%29.jpg',
+      alt: 'Hieronymus Bosch',
+      caption: 'Hieronymus Bosch',
+    },
+    body: "Hieronymus Bosch (c. 1450–1516) was a Dutch painter known for his fantastical and often surreal depictions of religious themes. Born Jheronimus van Aken in 's-Hertogenbosch, Netherlands, Bosch's work is characterized by its vivid imagination, intricate detail, and moral symbolism. His paintings often explore the themes of sin, morality, and the human condition, blending religious allegory with bizarre and sometimes nightmarish imagery. Bosch's most famous work, 'The Garden of Earthly Delights,' is a triptych that presents a complex, symbolic vision of humanity's fall, earthly temptations, and the consequences of sin. Other notable works include 'The Last Judgment' and 'The Temptation of St. Anthony.' His unique style, filled with strange creatures, fantastical landscapes, and surreal scenes, distinguishes him from his contemporaries and has led to various interpretations of his work, ranging from moral lessons to early examples of surrealism. Bosch's influence extended well beyond his time, impacting later artists like Pieter Bruegel the Elder and even modern surrealists. His ability to blend the real and the imagined, the sacred and the profane, makes him one of the most intriguing and enigmatic figures in art history.",
+    links: [
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg',
+        linkText: 'The Garden of Earthly Delights',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:The_Temptation_of_Saint_Anthony,_ca._1495-1515.jpg',
+        linkText: 'The Temptation of Saint Anthony',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:After_Hieronymus_Bosch_-_The_Last_Judgment_0000134708.jpg',
+        linkText: 'The Last Judgment',
+      },
+    ],
+  },
+  {
     id: 'amerigoVespucci',
     categories: ['Explorer'],
     color: 'dark-slate-gray',
@@ -304,6 +332,48 @@ const entries = [
       caption: 'Christopher Columbus',
     },
     body: "Christopher Columbus (1451–1506) was an Italian explorer whose voyages across the Atlantic Ocean led to the European discovery of the Americas. Born in Genoa, Columbus sought a westward route to Asia, believing it to be shorter than the overland routes. With support from Spanish monarchs Ferdinand and Isabella, he embarked on his first voyage in 1492, commanding three ships: the Niña, the Pinta, and the Santa María. On October 12, 1492, he landed in the Bahamas, mistakenly believing he had reached the East Indies. Columbus made a total of four voyages to the New World, exploring parts of the Caribbean, Central America, and South America. While he never found the direct route to Asia, his expeditions opened up the Americas for European exploration and colonization. Columbus's voyages had profound and lasting impacts, leading to widespread exchange between the Old and New Worlds. However, his expeditions also initiated the era of European colonization that brought significant suffering to indigenous populations. Columbus remains a controversial figure, celebrated for his role in history but criticized for the consequences of his journeys.",
+  },
+  {
+    id: 'leonardoDaVinci',
+    categories: ['Painter'],
+    color: 'dark-turquoise',
+    faicon: 'paint-brush',
+    date: '1452-04-15',
+    title: 'Leonardo da Vinci',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Portrait_of_Leonardo_da_Vinci_%28from_Characaturas_by_Leonardo_da_Vinci%2C_from_Drawings_by_Wincelslaus_Hollar%2C_out_of_the_Portland_Museum%29_MET_DP824104.jpg/640px-Portrait_of_Leonardo_da_Vinci_%28from_Characaturas_by_Leonardo_da_Vinci%2C_from_Drawings_by_Wincelslaus_Hollar%2C_out_of_the_Portland_Museum%29_MET_DP824104.jpg',
+      alt: 'Leonardo da Vinci',
+      caption: 'Leonardo da Vinci',
+    },
+    body: "Leonardo da Vinci (1452–1519) was an Italian polymath whose contributions to art, science, and engineering make him one of the most influential figures of the Renaissance. Born in Vinci, near Florence, Leonardo was a painter, sculptor, architect, inventor, and scientist, embodying the Renaissance ideal of the 'universal man.' His most famous paintings, 'The Last Supper' and 'Mona Lisa,' are celebrated for their innovative composition, mastery of light and shadow, and profound psychological depth. Beyond his artistic achievements, Leonardo's notebooks reveal his insatiable curiosity and inventive genius. He made detailed studies of anatomy, optics, botany, and engineering, and sketched designs for machines far ahead of his time, including flying machines, tanks, and hydraulic systems. Though many of his inventions were never built, his ideas anticipated future technological advancements. Leonardo's work in anatomy, particularly his dissections of the human body, contributed significantly to the understanding of human physiology. His meticulous observations and sketches have left a lasting legacy in both the arts and sciences. Leonardo da Vinci's extraordinary range of talents and his relentless pursuit of knowledge make him a symbol of the Renaissance and one of history's greatest creative minds.",
+    links: [
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg',
+        linkText: 'The Last Supper',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci,_Salvator_Mundi,_c.1500,_oil_on_walnut,_45.4_%C3%97_65.6_cm.jpg',
+        linkText: 'Salvator Mundi',
+      },
+      {
+        href: 'https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg',
+        linkText: 'Vitruvian Man',
+      },
+    ],
+  },
+  {
+    id: 'richardIIIEngland',
+    categories: ['Politician'],
+    color: 'blue',
+    faicon: 'landmark',
+    date: '1452-10-02',
+    title: 'Richard III of England',
+    image: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Richard_III_earliest_surviving_portrait.jpg/220px-Richard_III_earliest_surviving_portrait.jpg',
+      alt: 'Richard III of England',
+      caption: 'Richard III of England',
+    },
+    body: "Richard III of England (1452–1485) was the last Plantagenet king and the final ruler of the House of York. Born in Fotheringhay Castle, he was the younger brother of King Edward IV. Richard was a skilled military leader, playing a key role in the Wars of the Roses, a series of dynastic conflicts between the houses of York and Lancaster. In 1483, Richard was appointed Lord Protector of the realm after the death of Edward IV, with his young nephew Edward V as the new king. However, Richard seized the throne, declaring his nephews illegitimate, and was crowned king. His brief reign was marked by controversy, particularly regarding the mysterious disappearance of the Princes in the Tower, who were Edward V and his brother Richard, Duke of York. The boys were never seen again, and Richard has long been suspected of their murder, although the evidence remains inconclusive. Richard III's reign ended in 1485 at the Battle of Bosworth Field, where he was defeated and killed by the forces of Henry Tudor, who became Henry VII. Richard's death marked the end of the Wars of the Roses and the beginning of the Tudor dynasty. His legacy has been shaped by William Shakespeare's portrayal of him as a villainous, deformed usurper, though modern historians have reevaluated his character, recognizing the complexities of his reign.",
   },
   {
     id: 'vascoDaGama',
